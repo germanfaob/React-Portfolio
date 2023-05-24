@@ -1,0 +1,52 @@
+:root{
+    /* Font family */
+    --primary-font: 'Merriweather', serif;
+    --secundary-font: 'Merriweather Sans', sans-serif;
+
+    /* Text Colors */
+    --black-text: #19120C;
+    --subtitle-color: #777777;
+    --orange-hover: #FC3C1C;
+
+    /* Background */
+    --bg-color: rgba(240,237,224,1);
+    --bg-green: rgb(47,56,46);
+
+    /* Font size */
+    --p-size: 1rem;
+    --title-size: 3.2rem;
+    --subtitle-size: 1.4rem;
+
+    /* Font weight */
+    --standard-weight: 400;
+}
+
+    /* Reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+button{
+    border: none;
+    background: transparent;
+    font-family: var(--primary-font);
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--black-text);
+    font-family: var(--primary-font);
+    font-size: var(--p-size);
+    font-weight: var(--standard-weight);
+}
