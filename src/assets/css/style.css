@@ -1,24 +1,27 @@
 :root{
     /* Font family */
-    --primary-font: 'Merriweather', serif;
-    --secundary-font: 'Merriweather Sans', sans-serif;
+    --primary-font: 'Nanum Gothic', sans-serif;
 
     /* Text Colors */
     --black-text: #19120C;
-    --subtitle-color: #777777;
+    --white-color: #e6edf3;
+    --subtitle-color: #454545;
     --orange-hover: #FC3C1C;
 
-    /* Background */
-    --bg-color: rgba(240,237,224,1);
+    /* Background rgba(240,237,224,1)*/
+    --bg-color: #cfc7c3;
     --bg-green: rgb(47,56,46);
+    --bg-about: #bdb3b0;
 
     /* Font size */
+    --small-size: .8rem;
     --p-size: 1rem;
-    --title-size: 3.2rem;
-    --subtitle-size: 1.4rem;
+    --title-size: 3.5rem;
+    --subtitle-size: 1.8rem;
 
     /* Font weight */
     --standard-weight: 400;
+    --bold-weight: 700;
 }
 
     /* Reset */
@@ -35,6 +38,11 @@ li{
 a{
     text-decoration: none;
     color: var(--black-text);
+}
+
+h3{
+    font-size: var(--p-size);
+    font-weight: var(--bold-weight);
 }
 
 button{

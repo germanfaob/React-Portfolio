@@ -13,7 +13,9 @@ export const Card = (props) => {
                     <p className="projects__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, cupiditate deserunt totam molestias atque ipsam, iure ex odit natus dicta ratione neque voluptatum. Neque, tempora iste illo officiis repellendus magni?</p>
                 </div>
             </div>
-            <div className="projects__cards-front face"></div>
+            <div className="projects__cards-front face">
+                <img className="projects__front-img" src="../images/test.jpg"></img>
+            </div>
         </div>
     )
 }

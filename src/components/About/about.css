@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    padding: 0rem 3rem 0 3rem;
+    background: var(--bg-about);
+}
+
+.about__header{
+    display: flex;
+    width: 100%;
+    padding: 2.5rem;
+    justify-content: center;
+}
+
+.about__header-title{
+    color: var(--black-text);
+    font-size: var(--subtitle-size);
+    font-weight: 400;
+}

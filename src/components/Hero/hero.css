@@ -10,7 +10,7 @@
 .hero__title{
     font-size: var(--title-size);
     font-style: italic;
-    font-weight: 900;
+    font-weight: 800;
     animation: fade 1.8s ease-in .0s;
 }
 
