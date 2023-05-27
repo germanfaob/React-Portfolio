@@ -66,7 +66,6 @@
 .accent-color{
     color: var(--orange-hover);
     font-size: var(--small-size);
-    font-weight: var(--bold-weight);
 }
 
 .experiencie__description-spans{

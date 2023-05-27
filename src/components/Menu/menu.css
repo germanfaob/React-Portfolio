@@ -17,5 +17,5 @@
 .nav__list-text:hover{
     color: var(--orange-hover);
     filter: saturate(120%);
-    transition: .5s;
+    transition: .4s;
 }

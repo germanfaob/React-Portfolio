@@ -1,6 +1,6 @@
 :root{
     /* Font family */
-    --primary-font: 'Nanum Gothic', sans-serif;
+    --primary-font: 'Montserrat', sans-serif;
 
     /* Text Colors */
     --black-text: #19120C;
@@ -14,10 +14,10 @@
     --bg-about: #bdb3b0;
 
     /* Font size */
-    --small-size: .8rem;
+    --small-size: .9rem;
     --p-size: 1rem;
-    --title-size: 3.5rem;
-    --subtitle-size: 1.8rem;
+    --title-size: 4.5rem;
+    --subtitle-size: 2rem;
 
     /* Font weight */
     --standard-weight: 400;
@@ -29,6 +29,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+*::selection{
+    background: var(--orange-hover);
 }
 
 li{
