@@ -1,18 +1,33 @@
 .hero{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: .3rem;
+}
+
+.hero__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.hero__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .hero__title{
-    color: var(--bg-green);
+    color: var(--black-text);
     font-size: var(--title-size);
     font-style: italic;
     font-weight: 800;
-    text-shadow: 5px 5px 2px rgba(130, 126, 123, 0.75);
+    text-shadow: 5px 5px 2px rgb(173, 161, 111);
     animation: fade 1.8s ease-in .0s;
 }
 

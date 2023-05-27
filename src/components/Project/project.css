@@ -17,7 +17,7 @@
 }
 
 .projects__header-title{
-    color: var(--white-color);
+    color: var(--bg-color);
     font-size: var(--subtitle-size);
     font-weight: 400;
 }

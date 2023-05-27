@@ -2,19 +2,25 @@ import './card.css'
 
 export const Card = (props) => {
 
-    const { title,imgLink,altImg } = props
+    const { srcImg, altImg, titleProject, descriptionProject, fullImg, stack } = props
 
     return(
         <div className="projects__cards">
             <div className="projects__cards-back face">
-                <img className="projects__img" src='../images/img-8.webp' alt={altImg}/>
+                <img className="projects__img" src={srcImg} alt={altImg}/>
                 <div className="projects__info">
-                    <h2 className="projects__title">Titulo projecto 1</h2>
-                    <p className="projects__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, cupiditate deserunt totam molestias atque ipsam, iure ex odit natus dicta ratione neque voluptatum. Neque, tempora iste illo officiis repellendus magni?</p>
+                    <h2 className="projects__title">{titleProject}</h2>
+                    <p className="projects__description">{descriptionProject}</p>
+                    <div className='projects__stack'>
+                        <span className='stack'>{stack}</span>
+                        
+                    </div>
                 </div>
+                
             </div>
+
             <div className="projects__cards-front face">
-                <img className="projects__front-img" src="../images/test.jpg"></img>
+                <img className="projects__front-img" src={fullImg}></img>
             </div>
         </div>
     )

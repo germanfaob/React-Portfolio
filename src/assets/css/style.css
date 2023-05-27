@@ -1,22 +1,26 @@
-:root{
-    /* Font family */
-    --primary-font: 'Montserrat', sans-serif;
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../font/segoe-ui.otf);
+}
 
-    /* Text Colors */
-    --black-text: #19120C;
+:root{
+    /* Font family 'Montserrat', sans-serif */
+    --primary-font: 'Segoe UI', sans-serif;
+
+    /* Text Colors #19120C #303235 */
+    --black-text: #303235;
     --white-color: #e6edf3;
     --subtitle-color: #454545;
     --orange-hover: #FC3C1C;
 
-    /* Background rgba(240,237,224,1)*/
-    --bg-color: #cfc7c3;
+    /* Background beige: rgba(240,237,224,1)  gris: #cfc7c3 #fffdfc*/
+    --bg-color: rgba(240,237,224,1);
     --bg-green: rgb(47,56,46);
-    --bg-about: #bdb3b0;
 
     /* Font size */
     --small-size: .9rem;
     --p-size: 1rem;
-    --title-size: 4.5rem;
+    --title-size: 4.8rem;
     --subtitle-size: 2rem;
 
     /* Font weight */
