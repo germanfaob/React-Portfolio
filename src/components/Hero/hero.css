@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 .hero__texts{
@@ -11,6 +12,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+    height: 100%;
 }
 
 .hero__icons{
@@ -18,8 +20,13 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.2rem;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 100%;
+}
+
+.hero__icons-img{
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .hero__title{

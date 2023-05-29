@@ -12,10 +12,12 @@
     --white-color: #e6edf3;
     --subtitle-color: #454545;
     --orange-hover: #FC3C1C;
+    --border-color: #E3DEC9B3;
+    --bg-card: #686666;
 
     /* Background beige: rgba(240,237,224,1)  gris: #cfc7c3 #fffdfc*/
     --bg-color: rgba(240,237,224,1);
-    --bg-green: rgb(47,56,46);
+    --bg-green: #222;
 
     /* Font size */
     --small-size: .9rem;

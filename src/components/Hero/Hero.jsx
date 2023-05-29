@@ -1,4 +1,3 @@
-import { Icons } from '../Icons/Icons'
 import './hero.css'
 
 export const Hero = () => {
@@ -9,20 +8,11 @@ export const Hero = () => {
                 <p className='hero__subtitle'>Soy desarrollador web, actualmente viviendo en España y centrado en el Front-End</p>
             </div>
             <div className='hero__icons'>
-                <Icons 
-                srcIcon='../../images/github.png'
-                altIcon='Icono de Github'
-                />
+                <a href='https://github.com/germanfaob' target='_blank'><img className='hero__icons-img' src='../../images/github.png' alt="Icono de Github" /></a>
 
-                <Icons 
-                srcIcon='../../images/linkedin.png'
-                altIcon='Icono de Linkedin'
-                />
+                <a href='https://www.linkedin.com/in/germanfig/' target='_blank'><img className='hero__icons-img' src='../../images/linkedin.png' alt="Icono de Linkedin" /></a>
 
-                <Icons 
-                srcIcon='../../images/resume.png'
-                altIcon='Icono de curriculum'
-                />
+                <a href='' target='_blank'><img className='hero__icons-img' src='../../images/resume.png' alt="Icono de curriculum" /></a>
             </div>
         </div>
     )

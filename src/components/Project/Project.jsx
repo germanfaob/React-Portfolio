@@ -14,7 +14,7 @@ export const Project = () => {
                 altImg='' 
                 titleProject='Proyecto 1 desde Padre' 
                 descriptionProject='Descripción 1 ....' 
-                fullImg='../images/test.jpg'
+                fullImg='../images/mov.jpg'
                 stack='HTML, CSS, JS'
                 />
 

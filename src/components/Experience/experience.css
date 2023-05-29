@@ -66,6 +66,7 @@
 .accent-color{
     color: var(--orange-hover);
     font-size: var(--small-size);
+    filter: saturate(120%);
 }
 
 .experiencie__description-spans{
