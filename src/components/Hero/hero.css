@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
@@ -19,14 +19,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.2rem;
-    width: 2.5rem;
-    height: 100%;
+    width: 3rem;
+    height: 13rem;
+    background: var(--bg-green);
+}
+
+.hero__icons-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+
+.hero__icons-bg:hover{
+    background: var(--orange-hover);
+    opacity: .5;
+    transition: ease .5s;
 }
 
 .hero__icons-img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    filter: saturate(120%);
 }
 
 .hero__title{

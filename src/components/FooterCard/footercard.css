@@ -38,6 +38,7 @@
     height: 100%;
     border: 1px solid var(--bg-color);
     color: var(--bg-color);
+    filter: saturate(120%);
 }
 
 .contact__card-img{

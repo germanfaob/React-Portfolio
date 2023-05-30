@@ -35,6 +35,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 *::selection{
@@ -67,4 +68,8 @@ body{
     font-family: var(--primary-font);
     font-size: var(--p-size);
     font-weight: var(--standard-weight);
+}
+
+html{
+    cursor: url('../cursor.png'), auto;
 }
