@@ -9,54 +9,59 @@ export const Project = () => {
             </div>
 
             <div className='projects__container'>
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 1 desde Padre' 
-                descriptionProject='Descripción 1 ....' 
-                fullImg='../images/mov.jpg'
-                stack='HTML, CSS, JS'
-                />
+                
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 1 desde Padre' 
+                    descriptionProject='Descripción 1 ....' 
+                    fullImg='../images/mov.jpg'
+                    stack='HTML, CSS, JS'
+                    />
 
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 2 desde Padre' 
-                descriptionProject='Descripción 2 ....' 
-                fullImg='../images/test.jpg'
-                />
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 2 desde Padre' 
+                    descriptionProject='Descripción 2 ....' 
+                    fullImg='../images/test.jpg'
+                    />
 
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 2 desde Padre' 
-                descriptionProject='Descripción 2 ....' 
-                fullImg='../images/test.jpg'
-                />
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 2 desde Padre' 
+                    descriptionProject='Descripción 2 ....' 
+                    fullImg='../images/test.jpg'
+                    />
+                
 
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 2 desde Padre' 
-                descriptionProject='Descripción 2 ....' 
-                fullImg='../images/test.jpg'
-                />
+                
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 2 desde Padre' 
+                    descriptionProject='Descripción 2 ....' 
+                    fullImg='../images/test.jpg'
+                    />
 
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 2 desde Padre' 
-                descriptionProject='Descripción 2 ....' 
-                fullImg='../images/test.jpg'
-                />
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 2 desde Padre' 
+                    descriptionProject='Descripción 2 ....' 
+                    fullImg='../images/test.jpg'
+                    />
 
-                <Card 
-                srcImg='' 
-                altImg='' 
-                titleProject='Proyecto 2 desde Padre' 
-                descriptionProject='Descripción 2 ....' 
-                fullImg='../images/test.jpg'
-                />
+                    <Card 
+                    srcImg='' 
+                    altImg='' 
+                    titleProject='Proyecto 2 desde Padre' 
+                    descriptionProject='Descripción 2 ....' 
+                    fullImg='../images/test.jpg'
+                    />
+                
+                
             </div>
         </section>
     )

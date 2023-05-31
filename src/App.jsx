@@ -4,6 +4,7 @@ import { Contact } from './components/Contact/Contact';
 import { Experience } from './components/Experience/Experience';
 import { Header } from './components/Header/Header'
 import { Project } from './components/Project/Project';
+import { ScrollTop } from './components/ScrollTop/ScrollTop';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Experience />
             <About />
             <Contact />
+            <ScrollTop />
         </div>
     )
 }

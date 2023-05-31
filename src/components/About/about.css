@@ -27,3 +27,35 @@
     text-align: justify;
     padding-top: 1rem;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 767px){
+    .about{
+        height: 28rem;
+    }
+
+    .about__text{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 958px) {
+    .about{
+        height: 25rem;
+    }
+    
+    .about__text{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 959px) and (max-width: 1220px){
+    .about{
+        height: 25rem;
+    }
+
+    .about__text{
+        width: 60%;
+    }
+}

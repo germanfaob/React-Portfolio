@@ -1,0 +1,33 @@
+.scrolltop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    width: 3rem;
+    height: 3rem;
+    opacity: 0;
+    background: var(--bg-green);
+    border: 1px solid var(--bg-color);
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+    cursor: pointer;
+}
+
+.scrolltop:hover{
+    background: var(--orange-hover);
+    opacity: .4;
+    transition: ease .5s;
+}
+
+.scrolltop__img{
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.scrolltop.visible{
+    opacity: 1;
+    visibility: visible;
+}

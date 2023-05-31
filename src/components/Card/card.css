@@ -82,3 +82,66 @@
 .projects__cards:hover .projects__cards-back{
     transform: rotateY(0deg);
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 767px) {
+    .projects__cards{
+        width: 29rem;
+        height: 16rem;
+    }
+
+    .projects__front-img{
+        width: 29rem;
+        height: 16rem;
+    }
+
+    .projects__title{
+        font-size: var(--small-size);
+    }
+
+    .projects__description{
+        font-size: var(--small-size);
+    }
+
+    .stack{
+        font-size: var(--small-size);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 958px){
+    .projects__cards{
+        width: 19rem;
+        height: 25rem;
+    }
+
+    .projects__front-img{
+        width: 19rem;
+        height: 25rem;
+    }
+
+    .projects__title{
+        font-size: var(--small-size);
+    }
+
+    .projects__description{
+        font-size: var(--small-size);
+    }
+
+    .stack{
+        font-size: var(--small-size);
+    }
+}
+
+@media only screen and (min-width: 959px) and (max-width: 1220px) {
+    
+    .projects__cards{
+        width: 20rem;
+        height: 26rem;
+    }
+
+    .projects__front-img{
+        width: 20rem;
+        height: 26rem;
+    }
+}
