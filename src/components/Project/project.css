@@ -49,7 +49,7 @@
     }
 }
 
-@media only screen and (min-width: 959px) and (max-width: 1220px){
+@media only screen and (min-width: 959px) and (max-width: 1240px){
     .projects{
         height: 90rem;
         padding: 0 2rem;

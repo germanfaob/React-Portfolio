@@ -12,7 +12,7 @@ export const Hero = () => {
 
                 <a className='hero__icons-bg' href='https://www.linkedin.com/in/germanfig/' target='_blank'><img className='hero__icons-img' src='../../images/linkedin.png' alt="Icono de Linkedin" /></a>
 
-                <a className='hero__icons-bg' href='' target='_blank'><img className='hero__icons-img' src='../../images/resume.png' alt="Icono de curriculum" /></a>
+                <a className='hero__icons-bg' href='../../resume/resume.pdf' target='_blank'><img className='hero__icons-img' src='../../images/resume.png' alt="Icono de curriculum" /></a>
             </div>
         </div>
     )

@@ -28,7 +28,7 @@ export const Experience = () => {
                             <span className='accent-color'>Diciembre 2019 - Enero 2021</span>
                         </div>
                         <div className='experiencie__description-spans'>
-                            <span>- Trabajo con software de farmacia: encargado de resolver incidencias, tratar con clientes e implementar el software en el lado del cliente</span>
+                            <span>- Trabajo realizado con software de farmacia: encargado de resolver incidencias, tratar con clientes e implementar el software en el lado del cliente</span>
                             <span>- Trabajo con bases de datos ralacionales: actualización de estructuras, modificación de datos, reparación de Bases de Datos corruptas, etc.</span>
                         </div>
                     </div>
