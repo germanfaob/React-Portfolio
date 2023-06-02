@@ -63,7 +63,7 @@
 }
 
 .nav__input:checked + .nav__list{
-    background: var(--bg-green);
+    background: var(--bg-black-nav);
 }
 
 /* Responsive */
@@ -87,7 +87,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background: var(--bg-green);
+        background: var(--bg-black-nav);
         display: flex;
         justify-content: center;
         flex-direction: column;

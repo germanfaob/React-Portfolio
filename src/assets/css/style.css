@@ -18,6 +18,7 @@
     /* Background beige: rgba(240,237,224,1)  gris: #cfc7c3 #fffdfc*/
     --bg-color: rgba(240,237,224,1);
     --bg-green: #222;
+    --bg-black-nav: #222222f7;
 
     /* Font size */
     --small-size: .9rem;
